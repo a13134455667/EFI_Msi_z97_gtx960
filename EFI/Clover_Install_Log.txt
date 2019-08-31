@@ -1,0 +1,50 @@
+
+Clover EFI installer log - Sat Aug 31 17:02:01 CST 2019
+Installer version: v2.5k r5058 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *480.1 GB   disk0
+   1:                        EFI                         524.3 MB   disk0s1
+   2:                 Apple_APFS Container disk3         379.6 GB   disk0s2
+   3:                  Apple_HFS tim Backup              99.9 GB    disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *480.1 GB   disk1
+   1:                        EFI                         524.3 MB   disk1s1
+   2:       Microsoft Basic Data                         107.4 GB   disk1s2
+   3:       Microsoft Basic Data 软件SSD                 107.4 GB   disk1s3
+   4:       Microsoft Basic Data 文档SSD                 264.7 GB   disk1s4
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk2
+   1:       Microsoft Basic Data HD                      321.9 GB   disk2s1
+   2:       Microsoft Basic Data 工作文件HD              322.1 GB   disk2s2
+   3:       Microsoft Basic Data 下载HD                  355.7 GB   disk2s3
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +379.6 GB   disk3
+                                 Physical Store disk0s2
+   1:                APFS Volume MAC HD                  179.6 GB   disk3s1
+   2:                APFS Volume Preboot                 67.8 MB    disk3s2
+   3:                APFS Volume Recovery                1.0 GB     disk3s3
+   4:                APFS Volume VM                      1.1 GB     disk3s4
+
+Target volume /Volumes/MAC HD on disk3 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/MAC HD/EFIROOTDIR/EFI folder to /Volumes/MAC HD/EFI-Backups/r5050/2019-08-31-17h02/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot7 (x64) to /Volumes/Untitled 1/boot
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
