@@ -206,7 +206,7 @@
 				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>
-				BwAAAA==
+				AQAAAA==
 				</data>
 				<key>model</key>
 				<string>9 Series Chipset Family HD Audio Controller</string>
@@ -376,7 +376,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -384,8 +384,6 @@
 		<false/>
 		<key>NvidiaSingle</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x0d220003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
