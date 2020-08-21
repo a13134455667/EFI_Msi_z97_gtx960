@@ -1,4 +1,4 @@
-# EFI_Msi_z97_gtx960
+# EFI_OC6.0_微星z97gaming3_微星gtx960
 
 系统支持10.13.6
 OC版本：6.0正式版
@@ -8,7 +8,7 @@ OC版本：6.0正式版
 
 CPU:I5-4570
 
-主板:MSI z97 g3
+主板: 微星z97gaming3
 
 内存:16G
 
@@ -20,6 +20,7 @@ CPU:I5-4570
 
 显示器:DELL 2414H
 ## **BOIS设置**
+BOIS版本 2.1
 ### 禁用
 
 Fast Boot    快速启动
