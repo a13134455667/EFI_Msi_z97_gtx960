@@ -19,23 +19,23 @@ CPU:I5-4570
 网卡:杀手2000
 
 显示器:DELL 2414H
-## **BOIS设置**
+## **BOIS设置**  
 BOIS版本 2.1
-### 禁用
+### 禁用  
 
-Fast Boot    快速启动
-CFG Lock (MSR 0xE2 write protection)    CFG 锁 (MSR 0xE2 写入保护)
-VT-d    VT-d
-CSM    兼容性支持模块
-### 启用
-VT-x    VT-x
-Above 4G decoding    大于 4G 地址空间解码
-Hyper Threading    处理器超线程
-Execute Disable Bit    执行禁止位
-EHCI/XHCI Hand-off    接手 EHCI/XHCI 控制
-OS type: other types    操作系统类型: 其他
+Fast Boot    快速启动  
+CFG Lock (MSR 0xE2 write protection)    CFG 锁 (MSR 0xE2 写入保护)  
+VT-d    VT-d  
+CSM    兼容性支持模块  
+### 启用    
+VT-x    VT-x    
+Above 4G decoding    大于 4G 地址空间解码   
+Hyper Threading    处理器超线程   
+Execute Disable Bit    执行禁止位  
+EHCI/XHCI Hand-off    接手 EHCI/XHCI 控制  
+OS type: other types    操作系统类型: 其他  
 
-## **正常工作**
+## **正常工作**  
 
 CPU 变频800-3600
 
